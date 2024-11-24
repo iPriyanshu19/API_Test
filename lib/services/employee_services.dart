@@ -3,7 +3,7 @@ import 'package:api_test/models/employee.dart';
 import 'package:http/http.dart' as http;
 
 class EmployeeServices {
-  String baseUrl = "https://retoolapi.dev/gDo0b9/";
+  String baseUrl = "API Base URL";
 
   getAllEmployee() async {
     List<Employee> allEmployees = [];
