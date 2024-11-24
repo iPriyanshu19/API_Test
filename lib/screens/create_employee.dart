@@ -45,6 +45,7 @@ class _CreateEmployeeState extends State<CreateEmployee> {
                     if (value!.isEmpty) {
                       return "Please enter employee name!";
                     }
+                    return null;
                   },
                   controller: _nameController,
                   decoration: const InputDecoration(
